@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function CounterPage() {
-  const [count, setCount] = useState(0);
+
 
   return (
     <main className="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-black text-white selection:bg-[#FFE81F] selection:text-black">
