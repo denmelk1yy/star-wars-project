@@ -71,9 +71,9 @@ async function FilmsList() {
               <span className="text-zinc-500">
                 Персонажів: <span className="text-zinc-300">{film.characters.length}</span>
               </span>
-              <span className="text-yellow-400/80 group-hover:text-yellow-300 group-hover:translate-x-1 transition-all uppercase tracking-wider text-[11px]">
+              <Link   href={`/Film/${film.episode_id}`}  className="text-yellow-400/80 group-hover:text-yellow-300 group-hover:translate-x-1 transition-all uppercase tracking-wider text-[11px]">
                 Деталі архіву →
-              </span>
+              </Link>
             </div>
           </div>
         );
